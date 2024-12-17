@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Editor Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <nav id="nav-bar">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a href="#hero" class="nav-link">
+                        <img 
+                            id="header-img"
+                            src="https://i.ibb.co/JQBm5np/xora.png" 
+                            alt="logo"
+                            width=160
+                            height=55
+                        >
+                        </a>
+                    </li>
+                    <div class="nav-div">
+                        <li class="nav-li"><p><a href="#features" class="nav-link">features</a></p></li>
+                        <li class="nav-li"><p><a href="#pricing" class="nav-link">pricing</a></p></li>
+                        <li class="nav-li"><p><a href="#download" class="nav-link">download</a></p></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="text-container">
+                <p class="yellow-text">Video Editing</p>
+                <h1>Amazingly Simple</h1>
+                <p class="description">We designed XORA AI Video Editor to be an easy to use, quick to learn, and surprisingly powerful</p>
+                <button class="btn"><a href="#features">Try it now</a></button>
+            </div>
+            <div class="video-container">
+                <video id="video" muted loop autoplay>
+                    <source src="https://videos.pexels.com/video-files/29499273/12698353_2560_1440_60fps.mp4" type="video/mp4">
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section id="features">
+            <div class="feature-container">
+                <div class="feature-left">
+                    <img class="feature-icon" src="https://i.ibb.co/qdGW7Mr/feature-1.png" alt="icon-left">
+                    <p class="yellow-text">Easy Integration</p>
+                    <h2>Work smarter not harder</h2>
+                    <p class="description">With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.
+                    </p>
+                    <button class="btn">WATCH THE DEMO</button>
+                </div>
+                <div class="feature-right">
+                    <img class="feature-icon" src="https://i.ibb.co/3R9K2ZH/feature-2.png" alt="icon-right">
+                    <p class="yellow-text">Secure &amp; trustworthy</p>
+                    <h2>Sleep easy, we got your back</h2>
+                    <p class="description">Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.</p>
+                    <button class="btn">READ THE DOCS</button>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <h2>Flexible pricing for teams of all sizes</h2>
+            <div class="price-container">
+                <div class="price-side">
+                    <img src="https://i.ibb.co/DzdY1mf/plan-1.png" alt="plan1" class="plan1-icon">
+
+                    <div class="title-side">
+                        Core
+                    </div>
+
+
+                    <h2>$19</h2>
+                    <ul>
+                        <li class="price-li">100MB Cloud storage</li>
+                        <li class="price-li">100+ prompt templates</li>
+                        <li class="price-li">5 projects</li>
+                        <li class="price-li">24/7 support</li>
+                    </ul>
+                    <button class="btn">GET STARTED</button>
+                </div>
+                <div class="price-middle">
+                    <img src="https://i.ibb.co/LP0wvF3/plan-2.png" alt="plan2" class="plan2-icon">
+
+                    <div class="title-middle">
+                        Overdrive
+                    </div>
+
+
+                    <h2>$79</h2>
+                    <ul>
+                        <li class="price-li">All Starter features</li>
+                        <li class="price-li">1TB additional storage</li>
+                        <li class="price-li">Unlimited projects</li>
+                        <li class="price-li">Analytics</li>
+                    </ul>
+                    <button class="btn">GET STARTED</button>
+                </div>
+                <div class="price-side">
+                    <img src="https://i.ibb.co/QbhYyMT/plan-3.png" alt="plan" class="plan3-icon">
+                    
+                    <div class="title-side">
+                        Team
+                    </div>
+
+
+                    <h2>$39</h2>
+                    <ul>
+                        <li class="price-li">All Overdrive features</li>
+                        <li class="price-li">10TB additional storage</li>
+                        <li class="price-li">50% off per member</li>
+                        <li class="price-li">Real-time collaboration</li>
+                    </ul>
+                    <button class="btn">GET STARTED</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="download">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Download</h2>
+                <label for="email">
+                    <p>Enter your email to receive download link</p>
+
+                    <input type="email" id="email" name="email" placeholder="example@email.com">
+                </label>
+                <input type="submit" id="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
